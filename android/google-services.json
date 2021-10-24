@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588386474611",
+    "project_id": "chatsfeed-3c4ac",
+    "storage_bucket": "chatsfeed-3c4ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588386474611:android:ae002392173b6db3062806",
+        "android_client_info": {
+          "package_name": "com.chatwoot.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588386474611-knumpv3au9iip3ps7e7rg9k47o7u33jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQffhOhA8fSaoFyEWqdGSKhP_iFe1NEVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588386474611-knumpv3au9iip3ps7e7rg9k47o7u33jp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
