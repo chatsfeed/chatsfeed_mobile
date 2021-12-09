@@ -168,7 +168,7 @@ const App = ({ eva: { style } }) => {
       <SafeAreaView style={style.container}>
         <NavigationContainer ref={navigationRef}>
           <Stack.Navigator
-            initialRouteName={isUrlSet ? 'Login' : 'ConfigureURL'}
+            initialRouteName={'Login'}
             headerMode={'none'}>
             {isLoggedIn ? (
               <Fragment>

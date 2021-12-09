@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean --force",
+    "build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
     "android": "react-native run-android",
     "android:clean": "cd android && ./gradlew clean",
     "android:release": "react-native run-android --variant=release",

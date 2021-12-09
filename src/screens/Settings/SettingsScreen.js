@@ -117,6 +117,7 @@ const Settings = ({ eva: { theme, style } }) => {
   settingsMenu =
     appName === 'Chatwoot' ? SETTINGS_ITEMS : SETTINGS_ITEMS.filter((e) => e.itemName !== 'help');
 
+  console.log("HEREEEEE")
   return (
     <SafeAreaView style={style.container}>
       <HeaderBar title={i18n.t('SETTINGS.HEADER_TITLE')} />

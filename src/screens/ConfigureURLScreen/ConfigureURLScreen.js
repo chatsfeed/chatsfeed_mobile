@@ -79,11 +79,18 @@ const ConfigureURLScreenComponent = ({ eva }) => {
   const onSubmit = () => {
     const value = inputRef.current.getValue();
 
+
+
     if (value) {
       const { url } = value;
+        console.log('url',url)
       dispatch(setInstallationUrl({ url }));
     }
   };
+
+  useEffect(()=>{
+      dispatch(setInstallationUrl({ url :  'app.chatsfeed.com' }));
+  },[])
 
   return (
     <SafeAreaView

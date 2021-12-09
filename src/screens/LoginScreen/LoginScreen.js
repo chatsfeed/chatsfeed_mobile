@@ -93,7 +93,7 @@ const LoginScreenComponent = ({ navigation, eva }) => {
   useEffect(() => {
     dispatch(resetAuth());
     if (!installationUrl) {
-      navigation.navigate('ConfigureURL');
+      // navigation.navigate('ConfigureURL');
     }
   }, [installationUrl, navigation, dispatch]);
 
@@ -106,7 +106,9 @@ const LoginScreenComponent = ({ navigation, eva }) => {
   };
 
   const onPress = () => {
+     console.log("GGGGG")
     const value = inputRef.current.getValue();
+      console.log("PPPPPP",value)
     if (value) {
       const { email, password } = values;
       dispatch(doLogin({ email, password }));
@@ -166,9 +168,9 @@ const LoginScreenComponent = ({ navigation, eva }) => {
                 </>
               )}
 
-              <TouchableOpacity onPress={() => navigate('ConfigureURL')}>
-                <CustomText style={style.textStyle}> {i18n.t('LOGIN.CHANGE_URL')}</CustomText>
-              </TouchableOpacity>
+              {/*<TouchableOpacity onPress={() => navigate('ConfigureURL')}>*/}
+                {/*<CustomText style={style.textStyle}> {i18n.t('LOGIN.CHANGE_URL')}</CustomText>*/}
+              {/*</TouchableOpacity>*/}
             </View>
             <View style={style.accountView}>
               <TouchableOpacity onPress={() => navigate('Language')}>

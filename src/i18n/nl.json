@@ -122,7 +122,7 @@
     "TITLE": "Select Agent"
   },
   "ERRORS": {
-    "COMMON_ERROR": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw",
+    "COMMON_ERROR": "Kan geen verbinding maken met Feed Server, probeer het later opnieuw",
     "OfFLINE": "U moet verbinding maken met Wi-Fi of een mobiel netwerk om weer online te kunnen komen",
     "CANNOT_FETCH": "Er is een fout opgetreden bij het ophalen van de informatie, probeer het opnieuw",
     "AUTH": "Gebruikersnaam / wachtwoord onjuist. Probeer het opnieuw",
